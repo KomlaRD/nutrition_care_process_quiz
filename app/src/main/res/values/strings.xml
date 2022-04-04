@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Nutrition Care Process Quiz</string>
+    <string name="ncp_one">1. What is the first step of the nutrition care process?</string>
 </resources>
