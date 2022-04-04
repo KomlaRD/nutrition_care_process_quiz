@@ -10,4 +10,8 @@
     <string name="ncp_eight">8. Which of these is a domain of nutrition monitoring and evaluation</string>
     <string name="ncp_nine">9. How is a nutrition diagnosis statement written?</string>
     <string name="ncp_ten">10. What are the two phases of nutrition intervention?</string>
+    <string name="nutrition_assessment">Nutrition Assessment</string>
+    <string name="nutrition_diagnosis">Nutrition Diagnosis</string>
+    <string name="nutrition_intervention">Nutrition Intervention</string>
+    <string name="nutrition_monitoring">Nutrition monitoring and evaluation</string>
 </resources>
