@@ -13,7 +13,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_one" />
+            android:text="@string/ncp_one"
+            style="@style/appearance"/>
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -45,7 +46,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_two" />
+            android:text="@string/ncp_two"
+            style="@style/appearance"/>
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -77,7 +79,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_three" />
+            android:text="@string/ncp_three"
+            style="@style/appearance"/>
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -109,42 +112,50 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_three" />
+            android:text="@string/ncp_three"
+            style="@style/appearance"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_four" />
+            android:text="@string/ncp_four"
+            style="@style/appearance"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_five" />
+            android:text="@string/ncp_five"
+            style="@style/appearance"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_six" />
+            android:text="@string/ncp_six"
+            style="@style/appearance"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_seven" />
+            android:text="@string/ncp_seven"
+            style="@style/appearance"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_eight" />
+            android:text="@string/ncp_eight"
+            style="@style/appearance"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_nine" />
+            android:text="@string/ncp_nine"
+            style="@style/appearance"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_ten" />
+            android:text="@string/ncp_ten"
+            style="@style/appearance"/>
 
 
     </LinearLayout>
