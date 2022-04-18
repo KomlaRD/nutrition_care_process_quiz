@@ -154,22 +154,22 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/question_five_a" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/question_five_b" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/question_five_c" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/question_five_d" />
 
         </RadioGroup>
 
@@ -186,22 +186,22 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/question_six_a" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/question_six_b" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/question_six_c" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/question_six_d" />
 
         </RadioGroup>
 
@@ -218,22 +218,22 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/question_seven_a" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/question_seven_b" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/question_seven_c" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/question_seven_d" />
 
         </RadioGroup>
 
@@ -250,22 +250,22 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/question_eight_a" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/question_eight_b" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/question_eight_c" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/question_eight_d" />
 
         </RadioGroup>
 
@@ -282,22 +282,22 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/question_nine_a" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/question_nine_b" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/question_nine_c" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/question_nine_d" />
 
         </RadioGroup>
 
@@ -314,22 +314,22 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/question_ten_a" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/question_ten_b" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/question_ten_c" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/question_ten_d" />
 
         </RadioGroup>
 
