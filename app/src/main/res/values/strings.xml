@@ -39,4 +39,5 @@
     <string name="question_ten_c">Planning and recommendation</string>
     <string name="question_ten_d">Planning and implementation</string>
     <string name="submit">Submit quiz</string>
+    <string name="quiz_feedback">Quiz summary</string>
 </resources>
