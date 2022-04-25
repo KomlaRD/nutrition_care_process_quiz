@@ -12,6 +12,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/question_one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_one"
@@ -23,24 +24,32 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/nutrition_assessment"
+                android:onClick="quizOneButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/nutrition_diagnosis"
+                android:onClick="quizOneButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention"/>
+                android:text="@string/nutrition_intervention"
+                android:onClick="quizOneButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/nutrition_monitoring"
+                android:onClick="quizOneButton"/>
 
         </RadioGroup>
 
