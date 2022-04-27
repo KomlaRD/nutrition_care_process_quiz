@@ -54,6 +54,7 @@
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_two"
@@ -65,28 +66,37 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/nutrition_assessment"
+                android:onClick="quizTwoButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/nutrition_diagnosis"
+                android:onClick="quizTwoButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/nutrition_intervention"
+                android:onClick="quizTwoButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/nutrition_monitoring"
+                android:onClick="quizTwoButton"/>
 
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_three"
@@ -98,28 +108,37 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/nutrition_assessment"
+                android:onClick="quizThreeButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/nutrition_diagnosis"
+                android:onClick="quizThreeButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/nutrition_intervention"
+                android:onClick="quizThreeButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/nutrition_monitoring"
+                android:onClick="quizThreeButton"/>
 
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_four"
@@ -130,28 +149,37 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/nutrition_assessment"
+                android:onClick="quizFourButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/nutrition_diagnosis"
+                android:onClick="quizFourButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/nutrition_intervention"
+                android:onClick="quizFourButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/nutrition_monitoring"
+                android:onClick="quizFourButton"/>
 
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_five"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_five"
@@ -162,28 +190,37 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_five_a" />
+                android:text="@string/question_five_a"
+                android:onClick="quizFiveButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_five_b" />
+                android:text="@string/question_five_b"
+                android:onClick="quizFiveButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_five_c" />
+                android:text="@string/question_five_c"
+                android:onClick="quizFiveButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_five_d" />
+                android:text="@string/question_five_d"
+                android:onClick="quizFiveButton"/>
 
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_six"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_six"
@@ -194,28 +231,37 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_six_a" />
+                android:text="@string/question_six_a"
+                android:onClick="quizSixButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_six_b" />
+                android:text="@string/question_six_b"
+                android:onClick="quizSixButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_six_c" />
+                android:text="@string/question_six_c"
+                android:onClick="quizSixButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_six_d" />
+                android:text="@string/question_six_d"
+                android:onClick="quizSixButton"/>
 
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_seven"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_seven"
@@ -226,28 +272,37 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_seven_a" />
+                android:text="@string/question_seven_a"
+                android:onClick="quizSevenButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_seven_b" />
+                android:text="@string/question_seven_b"
+                android:onClick="quizSevenButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_seven_c" />
+                android:text="@string/question_seven_c"
+                android:onClick="quizSevenButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_seven_d" />
+                android:text="@string/question_seven_d"
+                android:onClick="quizSevenButton"/>
 
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_eight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_eight"
@@ -258,28 +313,37 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_eight_a" />
+                android:text="@string/question_eight_a"
+                android:onClick="quizEightButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_eight_b" />
+                android:text="@string/question_eight_b"
+                android:onClick="quizEightButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_eight_c" />
+                android:text="@string/question_eight_c"
+                android:onClick="quizEightButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_eight_d" />
+                android:text="@string/question_eight_d"
+                android:onClick="quizEightButton"/>
 
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_nine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_nine"
@@ -290,28 +354,37 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_nine_a" />
+                android:text="@string/question_nine_a"
+                android:onClick="quizNineButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_nine_b" />
+                android:text="@string/question_nine_b"
+                android:onClick="quizNineButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_nine_c" />
+                android:text="@string/question_nine_c"
+                android:onClick="quizNineButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_nine_d" />
+                android:text="@string/question_nine_d"
+                android:onClick="quizNineButton"/>
 
         </RadioGroup>
 
         <TextView
+            android:id="@+id/question_ten"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ncp_ten"
@@ -322,24 +395,32 @@
             android:orientation="vertical">
 
             <RadioButton
+                android:id="@+id/answer_one_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_ten_a" />
+                android:text="@string/question_ten_a"
+                android:onClick="quizTenButton"/>
 
             <RadioButton
+                android:id="@+id/answer_two_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_ten_b" />
+                android:text="@string/question_ten_b"
+                android:onClick="quizTenButton"/>
 
             <RadioButton
+                android:id="@+id/answer_three_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_ten_c" />
+                android:text="@string/question_ten_c"
+                android:onClick="quizTenButton"/>
 
             <RadioButton
+                android:id="@+id/answer_four_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_ten_d" />
+                android:text="@string/question_ten_d"
+                android:onClick="quizTenButton"/>
 
         </RadioGroup>
 
@@ -348,5 +429,6 @@
            android:layout_height="wrap_content"
            android:text="@string/submit"
            android:onClick="submitButton"/>
+
     </LinearLayout>
 </ScrollView>
