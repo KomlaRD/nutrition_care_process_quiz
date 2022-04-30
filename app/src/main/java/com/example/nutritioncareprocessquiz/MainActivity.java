@@ -50,16 +50,23 @@ public class MainActivity extends AppCompatActivity {
 
     public void submitButton(View view){
         // Display total score on the quiz
+        checkQuizOneAnswer();
         displayScore(score + score_two + score_three + score_four + score_five + score_six + score_seven
         + score_eight + score_nine + score_ten);
     }
 
-    // Question one method
+    // Question one methods
 
     @SuppressLint("NonConstantResourceId")
-    public void quizOneCheck(View view){
-        TextView quizOneAnswer = (TextView) findViewById(R.id.question_one);
-        String answer = quizOneAnswer.getText().toString();
+    public String quizOne(){
+        EditText quizOneAnswer = (EditText) findViewById(R.id.edit_one);
+        return quizOneAnswer.getText().toString();
+
+
+    }
+
+    public void checkQuizOneAnswer(){
+        String answer = quizOne();
         if (answer.equalsIgnoreCase("Nutrition assessment")){
             score = 1;
         }else{
@@ -67,6 +74,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+
 
     // Question two method
 
@@ -304,6 +313,10 @@ public class MainActivity extends AppCompatActivity {
     // Method to reset quiz responses
 
     public void resetButton(View view){
+        // Reset name of participant
+        EditText resetName = (EditText) findViewById(R.id.name);
+        resetName.setText("");
+
         //Reset edit text question
         EditText resetText = (EditText) findViewById(R.id.edit_one);
         resetText.setText("");
@@ -346,7 +359,20 @@ public class MainActivity extends AppCompatActivity {
         resetCheckBox = findViewById(R.id.answer_four_d);
         resetCheckBox.setChecked(false);
 
-        // Reset total scor
+        // Reset total score
+        score = 0;
+        score_two = 0;
+        score_three= 0;
+        score_four = 0;
+        score_five = 0;
+        score_six = 0;
+        score_seven = 0;
+        score_eight = 0;
+        score_nine = 0;
+        score_ten = 0;
+        TextView resetQuiz = (TextView) findViewById(R.id.total_score);
+        resetQuiz.setText("0");
+
     }
 
 
