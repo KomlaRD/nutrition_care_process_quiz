@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@color/tan_background"
     tools:context=".MainActivity">
 
@@ -13,422 +13,461 @@
 
         <TextView
             android:id="@+id/question_one"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_one"
-            style="@style/appearance"/>
+            android:text="@string/ncp_one" />
 
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment"
-                android:onClick="quizOneButton"/>
+                android:onClick="quizOneButton"
+                android:text="@string/nutrition_assessment" />
 
             <RadioButton
                 android:id="@+id/answer_two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis"
-                android:onClick="quizOneButton"/>
+                android:onClick="quizOneButton"
+                android:text="@string/nutrition_diagnosis" />
 
             <RadioButton
                 android:id="@+id/answer_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention"
-                android:onClick="quizOneButton"/>
+                android:onClick="quizOneButton"
+                android:text="@string/nutrition_intervention" />
 
             <RadioButton
                 android:id="@+id/answer_four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring"
-                android:onClick="quizOneButton"/>
+                android:onClick="quizOneButton"
+                android:text="@string/nutrition_monitoring" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_two"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_two"
-            style="@style/appearance"/>
+            android:text="@string/ncp_two" />
 
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment"
-                android:onClick="quizTwoButton"/>
+                android:onClick="quizTwoButton"
+                android:text="@string/nutrition_assessment" />
 
             <RadioButton
                 android:id="@+id/answer_two_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis"
-                android:onClick="quizTwoButton"/>
+                android:onClick="quizTwoButton"
+                android:text="@string/nutrition_diagnosis" />
 
             <RadioButton
                 android:id="@+id/answer_three_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention"
-                android:onClick="quizTwoButton"/>
+                android:onClick="quizTwoButton"
+                android:text="@string/nutrition_intervention" />
 
             <RadioButton
                 android:id="@+id/answer_four_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring"
-                android:onClick="quizTwoButton"/>
+                android:onClick="quizTwoButton"
+                android:text="@string/nutrition_monitoring" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_three"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_three"
-            style="@style/appearance"/>
+            android:text="@string/ncp_three" />
 
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment"
-                android:onClick="quizThreeButton"/>
+                android:onClick="quizThreeButton"
+                android:text="@string/nutrition_assessment" />
 
             <RadioButton
                 android:id="@+id/answer_two_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis"
-                android:onClick="quizThreeButton"/>
+                android:onClick="quizThreeButton"
+                android:text="@string/nutrition_diagnosis" />
 
             <RadioButton
                 android:id="@+id/answer_three_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention"
-                android:onClick="quizThreeButton"/>
+                android:onClick="quizThreeButton"
+                android:text="@string/nutrition_intervention" />
 
             <RadioButton
                 android:id="@+id/answer_four_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring"
-                android:onClick="quizThreeButton"/>
+                android:onClick="quizThreeButton"
+                android:text="@string/nutrition_monitoring" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_four"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_four"
-            style="@style/appearance"/>
+            android:text="@string/ncp_four" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_assessment"
-                android:onClick="quizFourButton"/>
+                android:onClick="quizFourButton"
+                android:text="@string/nutrition_assessment" />
 
             <RadioButton
                 android:id="@+id/answer_two_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_diagnosis"
-                android:onClick="quizFourButton"/>
+                android:onClick="quizFourButton"
+                android:text="@string/nutrition_diagnosis" />
 
             <RadioButton
                 android:id="@+id/answer_three_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_intervention"
-                android:onClick="quizFourButton"/>
+                android:onClick="quizFourButton"
+                android:text="@string/nutrition_intervention" />
 
             <RadioButton
                 android:id="@+id/answer_four_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nutrition_monitoring"
-                android:onClick="quizFourButton"/>
+                android:onClick="quizFourButton"
+                android:text="@string/nutrition_monitoring" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_five"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_five"
-            style="@style/appearance"/>
+            android:text="@string/ncp_five" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_five_a"
-                android:onClick="quizFiveButton"/>
+                android:onClick="quizFiveButton"
+                android:text="@string/question_five_a" />
 
             <RadioButton
                 android:id="@+id/answer_two_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_five_b"
-                android:onClick="quizFiveButton"/>
+                android:onClick="quizFiveButton"
+                android:text="@string/question_five_b" />
 
             <RadioButton
                 android:id="@+id/answer_three_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_five_c"
-                android:onClick="quizFiveButton"/>
+                android:onClick="quizFiveButton"
+                android:text="@string/question_five_c" />
 
             <RadioButton
                 android:id="@+id/answer_four_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_five_d"
-                android:onClick="quizFiveButton"/>
+                android:onClick="quizFiveButton"
+                android:text="@string/question_five_d" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_six"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_six"
-            style="@style/appearance"/>
+            android:text="@string/ncp_six" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_six_a"
-                android:onClick="quizSixButton"/>
+                android:onClick="quizSixButton"
+                android:text="@string/question_six_a" />
 
             <RadioButton
                 android:id="@+id/answer_two_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_six_b"
-                android:onClick="quizSixButton"/>
+                android:onClick="quizSixButton"
+                android:text="@string/question_six_b" />
 
             <RadioButton
                 android:id="@+id/answer_three_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_six_c"
-                android:onClick="quizSixButton"/>
+                android:onClick="quizSixButton"
+                android:text="@string/question_six_c" />
 
             <RadioButton
                 android:id="@+id/answer_four_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_six_d"
-                android:onClick="quizSixButton"/>
+                android:onClick="quizSixButton"
+                android:text="@string/question_six_d" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_seven"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_seven"
-            style="@style/appearance"/>
+            android:text="@string/ncp_seven" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_seven_a"
-                android:onClick="quizSevenButton"/>
+                android:onClick="quizSevenButton"
+                android:text="@string/question_seven_a" />
 
             <RadioButton
                 android:id="@+id/answer_two_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_seven_b"
-                android:onClick="quizSevenButton"/>
+                android:onClick="quizSevenButton"
+                android:text="@string/question_seven_b" />
 
             <RadioButton
                 android:id="@+id/answer_three_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_seven_c"
-                android:onClick="quizSevenButton"/>
+                android:onClick="quizSevenButton"
+                android:text="@string/question_seven_c" />
 
             <RadioButton
                 android:id="@+id/answer_four_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_seven_d"
-                android:onClick="quizSevenButton"/>
+                android:onClick="quizSevenButton"
+                android:text="@string/question_seven_d" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_eight"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_eight"
-            style="@style/appearance"/>
+            android:text="@string/ncp_eight" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_eight_a"
-                android:onClick="quizEightButton"/>
+                android:onClick="quizEightButton"
+                android:text="@string/question_eight_a" />
 
             <RadioButton
                 android:id="@+id/answer_two_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_eight_b"
-                android:onClick="quizEightButton"/>
+                android:onClick="quizEightButton"
+                android:text="@string/question_eight_b" />
 
             <RadioButton
                 android:id="@+id/answer_three_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_eight_c"
-                android:onClick="quizEightButton"/>
+                android:onClick="quizEightButton"
+                android:text="@string/question_eight_c" />
 
             <RadioButton
                 android:id="@+id/answer_four_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_eight_d"
-                android:onClick="quizEightButton"/>
+                android:onClick="quizEightButton"
+                android:text="@string/question_eight_d" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_nine"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_nine"
-            style="@style/appearance"/>
+            android:text="@string/ncp_nine" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_nine_a"
-                android:onClick="quizNineButton"/>
+                android:onClick="quizNineButton"
+                android:text="@string/question_nine_a" />
 
             <RadioButton
                 android:id="@+id/answer_two_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_nine_b"
-                android:onClick="quizNineButton"/>
+                android:onClick="quizNineButton"
+                android:text="@string/question_nine_b" />
 
             <RadioButton
                 android:id="@+id/answer_three_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_nine_c"
-                android:onClick="quizNineButton"/>
+                android:onClick="quizNineButton"
+                android:text="@string/question_nine_c" />
 
             <RadioButton
                 android:id="@+id/answer_four_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_nine_d"
-                android:onClick="quizNineButton"/>
+                android:onClick="quizNineButton"
+                android:text="@string/question_nine_d" />
 
         </RadioGroup>
 
         <TextView
             android:id="@+id/question_ten"
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/ncp_ten"
-            style="@style/appearance"/>
+            android:text="@string/ncp_ten" />
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/answer_one_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_ten_a"
-                android:onClick="quizTenButton"/>
+                android:onClick="quizTenButton"
+                android:text="@string/question_ten_a" />
 
             <RadioButton
                 android:id="@+id/answer_two_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_ten_b"
-                android:onClick="quizTenButton"/>
+                android:onClick="quizTenButton"
+                android:text="@string/question_ten_b" />
 
             <RadioButton
                 android:id="@+id/answer_three_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_ten_c"
-                android:onClick="quizTenButton"/>
+                android:onClick="quizTenButton"
+                android:text="@string/question_ten_c" />
 
             <RadioButton
                 android:id="@+id/answer_four_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question_ten_d"
-                android:onClick="quizTenButton"/>
+                android:onClick="quizTenButton"
+                android:text="@string/question_ten_d" />
 
         </RadioGroup>
 
-       <Button
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:text="@string/submit"
-           android:onClick="submitButton"/>
+        <Button
+            android:id="@+id/submit_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="submitButton"
+            android:text="@string/submit" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="resetButton"
+            android:text="@string/reset" />
+
+        <TextView
+            android:id="@+id/total_score_heading"
+            style="@style/appearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_score"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/total_score"
+            style="@style/appearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_total" />
 
     </LinearLayout>
 </ScrollView>
