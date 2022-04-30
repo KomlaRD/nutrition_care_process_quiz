@@ -2,14 +2,42 @@ package com.example.nutritioncareprocessquiz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    // Global variable for the score of quiz
+    // Global variable for the score of quiz one
     int score;
+
+    // Global variable for the score of quiz two
+    int score_two;
+
+    // Global variable for the score of quiz three
+    int score_three;
+
+    // Global variable for the score of quiz four
+    int score_four;
+
+    //  Global variable for the score of quiz five
+    int score_five;
+
+    // Global variable for the score of quiz six
+    int score_six;
+
+    // Global variable for the score of quiz seven
+    int score_seven;
+
+    // Global variable for the score of quiz eight
+    int score_eight;
+
+    // Global variable for the score of quiz nine
+    int score_nine;
+
+    // Global variable for the score of quiz ten
+    int score_ten;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,13 +46,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitButton(View view){
-        //Send explicit intent to quiz summary activity
-        Intent i = new Intent(this, QuizSummary.class);
-        startActivity(i);
+        // Display total score on the quiz
+        displayScore(score + score_two + score_three + score_four + score_five + score_six + score_seven
+        + score_eight + score_nine + score_ten);
     }
 
     // Question one method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizOneButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -33,17 +62,13 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_one:
                 if (checked) {
-                    score = 0;
-                }
-                break;
-            case R.id.answer_two:
-                if (checked) {
                     score = 1;
                 }
                 break;
+            case R.id.answer_two:
             case R.id.answer_three:
             case R.id.answer_four:
-                if (checked){
+                if (checked) {
                     score = 0;
                 }
                 break;
@@ -53,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Question two method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizTwoButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -77,22 +103,23 @@ public class MainActivity extends AppCompatActivity {
 
     // Quiz three method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizThreeButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
         switch(view.getId()){
-            case R.id.answer_four_b:
+            case R.id.answer_three_b:
                 if (checked) {
-                    score = 1;
+                    score_two = 1;
                 }
                 break;
             case R.id.answer_one_b:
             case R.id.answer_two_b:
-            case R.id.answer_three_b:
+            case R.id.answer_four_b:
                 if (checked){
-                    score = 0;
+                    score_two = 0;
                 }
                 break;
         }
@@ -101,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Quiz four method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizFourButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -125,6 +153,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Quiz five method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizFiveButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -149,6 +178,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Quiz six method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizSixButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -173,6 +203,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Quiz seven method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizSevenButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -197,6 +228,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Quiz eight method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizEightButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -221,6 +253,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Quiz nine method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizNineButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -245,6 +278,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Quiz ten method
 
+    @SuppressLint("NonConstantResourceId")
     public void quizTenButton(View view){
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -266,4 +300,19 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    // Display score of question one
+    @SuppressLint("SetTextI18n")
+    public void displayScore(int score){
+        TextView scoreView = (TextView) findViewById(R.id.total_score);
+        scoreView.setText(" " + score);
+
+    }
+
+    // Method for reset button
+    public void resetButton(View view){
+        // Use this to reset quiz
+    }
+
+
 }
