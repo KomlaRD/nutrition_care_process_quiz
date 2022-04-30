@@ -87,14 +87,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_two_a:
                 if (checked) {
-                    score = 1;
+                    score_two = 1;
                 }
                 break;
             case R.id.answer_one_a:
             case R.id.answer_three_a:
             case R.id.answer_four_a:
                 if (checked){
-                    score = 0;
+                    score_two = 0;
                 }
                 break;
         }
@@ -112,14 +112,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_three_b:
                 if (checked) {
-                    score_two = 1;
+                    score_three = 1;
                 }
                 break;
             case R.id.answer_one_b:
             case R.id.answer_two_b:
             case R.id.answer_four_b:
                 if (checked){
-                    score_two = 0;
+                    score_three = 0;
                 }
                 break;
         }
@@ -137,14 +137,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_four_c:
                 if (checked) {
-                    score = 1;
+                    score_four = 1;
                 }
                 break;
             case R.id.answer_one_c:
             case R.id.answer_two_c:
             case R.id.answer_three_c:
                 if (checked){
-                    score = 0;
+                    score_four = 0;
                 }
                 break;
         }
@@ -162,14 +162,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_one_d:
                 if (checked) {
-                    score = 1;
+                    score_five = 1;
                 }
                 break;
             case R.id.answer_two_d:
             case R.id.answer_three_d:
             case R.id.answer_four_d:
                 if (checked){
-                    score = 0;
+                    score_five = 0;
                 }
                 break;
         }
@@ -187,14 +187,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_three_e:
                 if (checked) {
-                    score = 1;
+                    score_six = 1;
                 }
                 break;
             case R.id.answer_one_e:
             case R.id.answer_two_e:
             case R.id.answer_four_e:
                 if (checked){
-                    score = 0;
+                    score_six = 0;
                 }
                 break;
         }
@@ -212,14 +212,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_four_f:
                 if (checked) {
-                    score = 1;
+                    score_seven = 1;
                 }
                 break;
             case R.id.answer_one_f:
             case R.id.answer_two_f:
             case R.id.answer_three_f:
                 if (checked){
-                    score = 0;
+                    score_seven = 0;
                 }
                 break;
         }
@@ -237,14 +237,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_one_g:
                 if (checked) {
-                    score = 1;
+                    score_eight = 1;
                 }
                 break;
             case R.id.answer_two_g:
             case R.id.answer_three_g:
             case R.id.answer_four_g:
                 if (checked){
-                    score = 0;
+                    score_eight = 0;
                 }
                 break;
         }
@@ -262,14 +262,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_three_h:
                 if (checked) {
-                    score = 1;
+                    score_nine = 1;
                 }
                 break;
             case R.id.answer_one_h:
             case R.id.answer_two_h:
             case R.id.answer_four_h:
                 if (checked){
-                    score = 0;
+                    score_nine = 0;
                 }
                 break;
         }
@@ -287,14 +287,14 @@ public class MainActivity extends AppCompatActivity {
         switch(view.getId()){
             case R.id.answer_four_i:
                 if (checked) {
-                    score = 1;
+                    score_ten = 1;
                 }
                 break;
             case R.id.answer_one_i:
             case R.id.answer_two_i:
             case R.id.answer_three_i:
                 if (checked){
-                    score = 0;
+                    score_ten = 0;
                 }
                 break;
         }
