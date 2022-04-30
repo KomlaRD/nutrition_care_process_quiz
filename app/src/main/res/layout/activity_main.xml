@@ -19,9 +19,9 @@
             android:text="@string/ncp_one" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -29,28 +29,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizOneButton"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/nutrition_assessment"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizOneButton"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/nutrition_diagnosis"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizOneButton"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/nutrition_intervention"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizOneButton"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/nutrition_monitoring"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -62,9 +66,9 @@
             android:text="@string/ncp_two" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -72,28 +76,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTwoButton"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/nutrition_assessment"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTwoButton"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/nutrition_diagnosis"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTwoButton"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/nutrition_intervention"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTwoButton"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/nutrition_monitoring"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -105,9 +113,9 @@
             android:text="@string/ncp_three" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -115,28 +123,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizThreeButton"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/nutrition_assessment"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizThreeButton"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/nutrition_diagnosis"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizThreeButton"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/nutrition_intervention"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizThreeButton"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/nutrition_monitoring"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -148,9 +160,9 @@
             android:text="@string/ncp_four" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -158,28 +170,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFourButton"
-                android:text="@string/nutrition_assessment" />
+                android:text="@string/nutrition_assessment"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFourButton"
-                android:text="@string/nutrition_diagnosis" />
+                android:text="@string/nutrition_diagnosis"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFourButton"
-                android:text="@string/nutrition_intervention" />
+                android:text="@string/nutrition_intervention"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFourButton"
-                android:text="@string/nutrition_monitoring" />
+                android:text="@string/nutrition_monitoring"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -191,9 +207,9 @@
             android:text="@string/ncp_five" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -201,28 +217,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFiveButton"
-                android:text="@string/question_five_a" />
+                android:text="@string/question_five_a"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFiveButton"
-                android:text="@string/question_five_b" />
+                android:text="@string/question_five_b"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFiveButton"
-                android:text="@string/question_five_c" />
+                android:text="@string/question_five_c"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFiveButton"
-                android:text="@string/question_five_d" />
+                android:text="@string/question_five_d"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -234,9 +254,9 @@
             android:text="@string/ncp_six" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -244,28 +264,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSixButton"
-                android:text="@string/question_six_a" />
+                android:text="@string/question_six_a"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSixButton"
-                android:text="@string/question_six_b" />
+                android:text="@string/question_six_b"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSixButton"
-                android:text="@string/question_six_c" />
+                android:text="@string/question_six_c"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSixButton"
-                android:text="@string/question_six_d" />
+                android:text="@string/question_six_d"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -277,9 +301,9 @@
             android:text="@string/ncp_seven" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -287,28 +311,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSevenButton"
-                android:text="@string/question_seven_a" />
+                android:text="@string/question_seven_a"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSevenButton"
-                android:text="@string/question_seven_b" />
+                android:text="@string/question_seven_b"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSevenButton"
-                android:text="@string/question_seven_c" />
+                android:text="@string/question_seven_c"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_f"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSevenButton"
-                android:text="@string/question_seven_d" />
+                android:text="@string/question_seven_d"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -320,9 +348,9 @@
             android:text="@string/ncp_eight" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -330,28 +358,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizEightButton"
-                android:text="@string/question_eight_a" />
+                android:text="@string/question_eight_a"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizEightButton"
-                android:text="@string/question_eight_b" />
+                android:text="@string/question_eight_b"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizEightButton"
-                android:text="@string/question_eight_c" />
+                android:text="@string/question_eight_c"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_g"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizEightButton"
-                android:text="@string/question_eight_d" />
+                android:text="@string/question_eight_d"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -363,9 +395,9 @@
             android:text="@string/ncp_nine" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -373,28 +405,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizNineButton"
-                android:text="@string/question_nine_a" />
+                android:text="@string/question_nine_a"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizNineButton"
-                android:text="@string/question_nine_b" />
+                android:text="@string/question_nine_b"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizNineButton"
-                android:text="@string/question_nine_c" />
+                android:text="@string/question_nine_c"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_h"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizNineButton"
-                android:text="@string/question_nine_d" />
+                android:text="@string/question_nine_d"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -406,9 +442,9 @@
             android:text="@string/ncp_ten" />
 
         <RadioGroup
+            style="@style/appearance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/appearance"
             android:orientation="vertical">
 
             <RadioButton
@@ -416,28 +452,32 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTenButton"
-                android:text="@string/question_ten_a" />
+                android:text="@string/question_ten_a"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_two_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTenButton"
-                android:text="@string/question_ten_b" />
+                android:text="@string/question_ten_b"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_three_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTenButton"
-                android:text="@string/question_ten_c" />
+                android:text="@string/question_ten_c"
+                tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
                 android:id="@+id/answer_four_i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTenButton"
-                android:text="@string/question_ten_d" />
+                android:text="@string/question_ten_d"
+                tools:ignore="UsingOnClickInXml" />
 
         </RadioGroup>
 
@@ -446,28 +486,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="submitButton"
-            android:text="@string/submit" />
+            android:text="@string/submit"
+            tools:ignore="UsingOnClickInXml" />
 
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="resetButton"
-            android:text="@string/reset" />
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/total_score_heading"
-            style="@style/appearance"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/total_score"
-            android:textAllCaps="true" />
+            <TextView
+                android:id="@+id/total_score_heading"
+                style="@style/appearance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_score"
+                android:textAllCaps="true" />
 
-        <TextView
-            android:id="@+id/total_score"
-            style="@style/appearance"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/score_total" />
+            <TextView
+                android:id="@+id/total_score"
+                style="@style/appearance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score_total" />
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>

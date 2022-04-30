@@ -40,4 +40,7 @@
     <string name="question_ten_d">Planning and implementation</string>
     <string name="submit">Submit quiz</string>
     <string name="quiz_feedback">Quiz summary</string>
+    <string name="reset">Reset</string>
+    <string name="total_score">total score:</string>
+    <string name="score_total">0</string>
 </resources>

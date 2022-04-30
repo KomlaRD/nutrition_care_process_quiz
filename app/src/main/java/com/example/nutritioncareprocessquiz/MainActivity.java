@@ -309,10 +309,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // Method for reset button
-    public void resetButton(View view){
-        // Use this to reset quiz
-    }
 
 
 }
