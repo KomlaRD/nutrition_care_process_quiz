@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -54,24 +57,13 @@ public class MainActivity extends AppCompatActivity {
     // Question one method
 
     @SuppressLint("NonConstantResourceId")
-    public void quizOneButton(View view){
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
-
-        // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_one:
-                if (checked) {
-                    score = 1;
-                }
-                break;
-            case R.id.answer_two:
-            case R.id.answer_three:
-            case R.id.answer_four:
-                if (checked) {
-                    score = 0;
-                }
-                break;
+    public void quizOneCheck(View view){
+        TextView quizOneAnswer = (TextView) findViewById(R.id.question_one);
+        String answer = quizOneAnswer.getText().toString();
+        if (answer.equalsIgnoreCase("Nutrition assessment")){
+            score = 1;
+        }else{
+            score = 0;
         }
 
     }
@@ -156,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("NonConstantResourceId")
     public void quizFiveButton(View view){
         // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
+        boolean checked = ((CheckBox) view).isChecked();
 
         // Check which answer has been checked
         switch(view.getId()){
@@ -307,6 +299,54 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.total_score);
         scoreView.setText(" " + score);
 
+    }
+
+    // Method to reset quiz responses
+
+    public void resetButton(View view){
+        //Reset edit text question
+        EditText resetText = (EditText) findViewById(R.id.edit_one);
+        resetText.setText("");
+
+        // Reset radio groups
+        RadioGroup radio =  findViewById(R.id.radio_group_one);
+        radio.clearCheck();
+
+        radio = findViewById(R.id.radio_group_two);
+        radio.clearCheck();
+
+        radio = findViewById(R.id.radio_group_three);
+        radio.clearCheck();
+
+        radio = findViewById(R.id.radio_group_four);
+        radio.clearCheck();
+
+        radio = findViewById(R.id.radio_group_five);
+        radio.clearCheck();
+
+        radio = findViewById(R.id.radio_group_six);
+        radio.clearCheck();
+
+        radio = findViewById(R.id.radio_group_seven);
+        radio.clearCheck();
+
+        radio = findViewById(R.id.radio_group_eight);
+        radio.clearCheck();
+
+        // Reset checkboxes
+        CheckBox resetCheckBox = (CheckBox) findViewById(R.id.answer_one_d);
+        resetCheckBox.setChecked(false);
+
+        resetCheckBox = findViewById(R.id.answer_two_d);
+        resetCheckBox.setChecked(false);
+
+        resetCheckBox = findViewById(R.id.answer_three_d);
+        resetCheckBox.setChecked(false);
+
+        resetCheckBox = findViewById(R.id.answer_four_d);
+        resetCheckBox.setChecked(false);
+
+        // Reset total scor
     }
 
 

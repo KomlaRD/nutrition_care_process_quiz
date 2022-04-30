@@ -18,7 +18,7 @@
     <string name="question_five_b">Intake</string>
     <string name="question_five_c">Nutrition education</string>
     <string name="question_five_d">Coordination of nutrition care</string>
-    <string name="question_six_a">Body compostion and function</string>
+    <string name="question_six_a">Body composition and function</string>
     <string name="question_six_b">Biochemical and hematological</string>
     <string name="question_six_c">Clinical</string>
     <string name="question_six_d">Nutrition counselling</string>
@@ -43,4 +43,6 @@
     <string name="reset">Reset</string>
     <string name="total_score">total score:</string>
     <string name="score_total">0</string>
+    <string name="name">Name</string>
+    <string name="type_answer">Type answer</string>
 </resources>
