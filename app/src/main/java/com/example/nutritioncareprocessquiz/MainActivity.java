@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void submitButton(View view){
+    public void submitButton(View view) {
         // Display total score on the quiz
         checkQuizOneAnswer();
         displayScore(score + score_two + score_three + score_four + score_five + score_six + score_seven
@@ -64,45 +64,41 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Question one methods
-
     @SuppressLint("NonConstantResourceId")
-    public String quizOne(){
+    private String quizOne() {
         EditText quizOneAnswer = (EditText) findViewById(R.id.edit_one);
         return quizOneAnswer.getText().toString();
 
 
     }
 
-    public void checkQuizOneAnswer(){
+    public void checkQuizOneAnswer() {
         String answer = quizOne();
-        if (answer.equalsIgnoreCase("Nutrition assessment")){
+        if (answer.equalsIgnoreCase("Nutrition assessment")) {
             score = 1;
-        }else{
+        } else {
             score = 0;
         }
 
     }
 
-
-
     // Question two method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizTwoButton(View view){
+    public void quizTwoButton(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_two_a:
+        switch (view.getId()) {
+            case R.id.answer_two_a_radio:
                 if (checked) {
                     score_two = 1;
                 }
                 break;
-            case R.id.answer_one_a:
-            case R.id.answer_three_a:
-            case R.id.answer_four_a:
-                if (checked){
+            case R.id.answer_one_a_radio:
+            case R.id.answer_three_a_radio:
+            case R.id.answer_four_a_radio:
+                if (checked) {
                     score_two = 0;
                 }
                 break;
@@ -111,23 +107,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Quiz three method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizThreeButton(View view){
+    public void quizThreeButton(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_three_b:
+        switch (view.getId()) {
+            case R.id.answer_three_b_radio:
                 if (checked) {
                     score_three = 1;
                 }
                 break;
-            case R.id.answer_one_b:
-            case R.id.answer_two_b:
-            case R.id.answer_four_b:
-                if (checked){
+            case R.id.answer_one_b_radio:
+            case R.id.answer_two_b_radio:
+            case R.id.answer_four_b_radio:
+                if (checked) {
                     score_three = 0;
                 }
                 break;
@@ -136,23 +131,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Quiz four method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizFourButton(View view){
+    public void quizFourButton(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_four_c:
+        switch (view.getId()) {
+            case R.id.answer_four_c_radio:
                 if (checked) {
                     score_four = 1;
                 }
                 break;
-            case R.id.answer_one_c:
-            case R.id.answer_two_c:
-            case R.id.answer_three_c:
-                if (checked){
+            case R.id.answer_one_c_radio:
+            case R.id.answer_two_c_radio:
+            case R.id.answer_three_c_radio:
+                if (checked) {
                     score_four = 0;
                 }
                 break;
@@ -161,23 +155,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Quiz five method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizFiveButton(View view){
+    public void quizFiveButton(View view) {
         // Is the button now checked?
         boolean checked = ((CheckBox) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_one_d:
+        switch (view.getId()) {
+            case R.id.answer_one_d_checkbox:
                 if (checked) {
                     score_five = 1;
                 }
                 break;
-            case R.id.answer_two_d:
-            case R.id.answer_three_d:
-            case R.id.answer_four_d:
-                if (checked){
+            case R.id.answer_two_d_checkbox:
+            case R.id.answer_three_d_checkbox:
+            case R.id.answer_four_d_checkbox:
+                if (checked) {
                     score_five = 0;
                 }
                 break;
@@ -186,23 +179,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Quiz six method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizSixButton(View view){
+    public void quizSixButton(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_three_e:
+        switch (view.getId()) {
+            case R.id.answer_three_e_radio:
                 if (checked) {
                     score_six = 1;
                 }
                 break;
-            case R.id.answer_one_e:
-            case R.id.answer_two_e:
-            case R.id.answer_four_e:
-                if (checked){
+            case R.id.answer_one_e_radio:
+            case R.id.answer_two_e_radio:
+            case R.id.answer_four_e_radio:
+                if (checked) {
                     score_six = 0;
                 }
                 break;
@@ -211,23 +203,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Quiz seven method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizSevenButton(View view){
+    public void quizSevenButton(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_four_f:
+        switch (view.getId()) {
+            case R.id.answer_four_f_radio:
                 if (checked) {
                     score_seven = 1;
                 }
                 break;
-            case R.id.answer_one_f:
-            case R.id.answer_two_f:
-            case R.id.answer_three_f:
-                if (checked){
+            case R.id.answer_one_f_radio:
+            case R.id.answer_two_f_radio:
+            case R.id.answer_three_f_radio:
+                if (checked) {
                     score_seven = 0;
                 }
                 break;
@@ -236,23 +227,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Quiz eight method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizEightButton(View view){
+    public void quizEightButton(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_one_g:
+        switch (view.getId()) {
+            case R.id.answer_one_g_radio:
                 if (checked) {
                     score_eight = 1;
                 }
                 break;
-            case R.id.answer_two_g:
-            case R.id.answer_three_g:
-            case R.id.answer_four_g:
-                if (checked){
+            case R.id.answer_two_g_radio:
+            case R.id.answer_three_g_radio:
+            case R.id.answer_four_g_radio:
+                if (checked) {
                     score_eight = 0;
                 }
                 break;
@@ -261,23 +251,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Quiz nine method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizNineButton(View view){
+    public void quizNineButton(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_three_h:
+        switch (view.getId()) {
+            case R.id.answer_three_h_radio:
                 if (checked) {
                     score_nine = 1;
                 }
                 break;
-            case R.id.answer_one_h:
-            case R.id.answer_two_h:
-            case R.id.answer_four_h:
-                if (checked){
+            case R.id.answer_one_h_radio:
+            case R.id.answer_two_h_radio:
+            case R.id.answer_four_h_radio:
+                if (checked) {
                     score_nine = 0;
                 }
                 break;
@@ -286,23 +275,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Quiz ten method
-
     @SuppressLint("NonConstantResourceId")
-    public void quizTenButton(View view){
+    public void quizTenButton(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which answer has been checked
-        switch(view.getId()){
-            case R.id.answer_four_i:
+        switch (view.getId()) {
+            case R.id.answer_four_i_radio:
                 if (checked) {
                     score_ten = 1;
                 }
                 break;
-            case R.id.answer_one_i:
-            case R.id.answer_two_i:
-            case R.id.answer_three_i:
-                if (checked){
+            case R.id.answer_one_i_radio:
+            case R.id.answer_two_i_radio:
+            case R.id.answer_three_i_radio:
+                if (checked) {
                     score_ten = 0;
                 }
                 break;
@@ -310,17 +298,16 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // Display score of question one
+    // Display total score when submit button is clicked
     @SuppressLint("SetTextI18n")
-    public void displayScore(int score){
+    public void displayScore(int score) {
         TextView scoreView = (TextView) findViewById(R.id.total_score);
         scoreView.setText(" " + score);
 
     }
 
     // Method to reset quiz responses
-
-    public void resetButton(View view){
+    public void resetButton(View view) {
         // Reset name of participant
         EditText resetName = (EditText) findViewById(R.id.name);
         resetName.setText("");
@@ -330,7 +317,7 @@ public class MainActivity extends AppCompatActivity {
         resetText.setText("");
 
         // Reset radio groups
-        RadioGroup radio =  findViewById(R.id.radio_group_one);
+        RadioGroup radio = findViewById(R.id.radio_group_one);
         radio.clearCheck();
 
         radio = findViewById(R.id.radio_group_two);
@@ -370,7 +357,7 @@ public class MainActivity extends AppCompatActivity {
         // Reset total score
         score = 0;
         score_two = 0;
-        score_three= 0;
+        score_three = 0;
         score_four = 0;
         score_five = 0;
         score_six = 0;
@@ -382,7 +369,6 @@ public class MainActivity extends AppCompatActivity {
         resetQuiz.setText("0");
 
     }
-
 
 
 }

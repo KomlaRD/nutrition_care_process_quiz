@@ -16,8 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/name"
-            android:inputType="textPersonName"
-            android:importantForAutofill="no" />
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/question_one"
@@ -32,8 +32,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/type_answer"
-            android:inputType="text"
-            android:importantForAutofill="no" />
+            android:importantForAutofill="no"
+            android:inputType="text" />
 
         <TextView
             android:id="@+id/question_two"
@@ -50,7 +50,7 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer_one_a"
+                android:id="@+id/answer_one_a_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTwoButton"
@@ -58,7 +58,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_two_a"
+                android:id="@+id/answer_two_a_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTwoButton"
@@ -66,7 +66,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_three_a"
+                android:id="@+id/answer_three_a_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTwoButton"
@@ -74,7 +74,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_four_a"
+                android:id="@+id/answer_four_a_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTwoButton"
@@ -98,7 +98,7 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer_one_b"
+                android:id="@+id/answer_one_b_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizThreeButton"
@@ -106,7 +106,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_two_b"
+                android:id="@+id/answer_two_b_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizThreeButton"
@@ -114,7 +114,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_three_b"
+                android:id="@+id/answer_three_b_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizThreeButton"
@@ -122,7 +122,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_four_b"
+                android:id="@+id/answer_four_b_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizThreeButton"
@@ -146,7 +146,7 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer_one_c"
+                android:id="@+id/answer_one_c_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFourButton"
@@ -154,7 +154,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_two_c"
+                android:id="@+id/answer_two_c_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFourButton"
@@ -162,7 +162,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_three_c"
+                android:id="@+id/answer_three_c_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFourButton"
@@ -170,7 +170,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_four_c"
+                android:id="@+id/answer_four_c_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizFourButton"
@@ -187,41 +187,41 @@
             android:text="@string/ncp_five" />
 
 
-            <CheckBox
-                android:id="@+id/answer_one_d"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/appearance"
-                android:onClick="quizFiveButton"
-                android:text="@string/question_five_a"
-                tools:ignore="UsingOnClickInXml" />
+        <CheckBox
+            android:id="@+id/answer_one_d_checkbox"
+            style="@style/appearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="quizFiveButton"
+            android:text="@string/question_five_a"
+            tools:ignore="UsingOnClickInXml" />
 
-            <CheckBox
-                android:id="@+id/answer_two_d"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/appearance"
-                android:onClick="quizFiveButton"
-                android:text="@string/question_five_b"
-                tools:ignore="UsingOnClickInXml" />
+        <CheckBox
+            android:id="@+id/answer_two_d_checkbox"
+            style="@style/appearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="quizFiveButton"
+            android:text="@string/question_five_b"
+            tools:ignore="UsingOnClickInXml" />
 
-            <CheckBox
-                android:id="@+id/answer_three_d"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/appearance"
-                android:onClick="quizFiveButton"
-                android:text="@string/question_five_c"
-                tools:ignore="UsingOnClickInXml" />
+        <CheckBox
+            android:id="@+id/answer_three_d_checkbox"
+            style="@style/appearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="quizFiveButton"
+            android:text="@string/question_five_c"
+            tools:ignore="UsingOnClickInXml" />
 
-            <CheckBox
-                android:id="@+id/answer_four_d"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/appearance"
-                android:onClick="quizFiveButton"
-                android:text="@string/question_five_d"
-                tools:ignore="UsingOnClickInXml" />
+        <CheckBox
+            android:id="@+id/answer_four_d_checkbox"
+            style="@style/appearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="quizFiveButton"
+            android:text="@string/question_five_d"
+            tools:ignore="UsingOnClickInXml" />
 
         <TextView
             android:id="@+id/question_six"
@@ -238,7 +238,7 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer_one_e"
+                android:id="@+id/answer_one_e_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSixButton"
@@ -246,7 +246,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_two_e"
+                android:id="@+id/answer_two_e_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSixButton"
@@ -254,7 +254,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_three_e"
+                android:id="@+id/answer_three_e_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSixButton"
@@ -262,7 +262,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_four_e"
+                android:id="@+id/answer_four_e_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSixButton"
@@ -286,7 +286,7 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer_one_f"
+                android:id="@+id/answer_one_f_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSevenButton"
@@ -294,7 +294,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_two_f"
+                android:id="@+id/answer_two_f_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSevenButton"
@@ -302,7 +302,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_three_f"
+                android:id="@+id/answer_three_f_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSevenButton"
@@ -310,7 +310,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_four_f"
+                android:id="@+id/answer_four_f_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizSevenButton"
@@ -334,7 +334,7 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer_one_g"
+                android:id="@+id/answer_one_g_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizEightButton"
@@ -342,7 +342,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_two_g"
+                android:id="@+id/answer_two_g_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizEightButton"
@@ -350,7 +350,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_three_g"
+                android:id="@+id/answer_three_g_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizEightButton"
@@ -358,7 +358,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_four_g"
+                android:id="@+id/answer_four_g_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizEightButton"
@@ -382,7 +382,7 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer_one_h"
+                android:id="@+id/answer_one_h_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizNineButton"
@@ -390,7 +390,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_two_h"
+                android:id="@+id/answer_two_h_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizNineButton"
@@ -398,7 +398,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_three_h"
+                android:id="@+id/answer_three_h_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizNineButton"
@@ -406,7 +406,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_four_h"
+                android:id="@+id/answer_four_h_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizNineButton"
@@ -430,7 +430,7 @@
             android:orientation="vertical">
 
             <RadioButton
-                android:id="@+id/answer_one_i"
+                android:id="@+id/answer_one_i_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTenButton"
@@ -438,7 +438,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_two_i"
+                android:id="@+id/answer_two_i_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTenButton"
@@ -446,7 +446,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_three_i"
+                android:id="@+id/answer_three_i_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTenButton"
@@ -454,7 +454,7 @@
                 tools:ignore="UsingOnClickInXml" />
 
             <RadioButton
-                android:id="@+id/answer_four_i"
+                android:id="@+id/answer_four_i_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="quizTenButton"
