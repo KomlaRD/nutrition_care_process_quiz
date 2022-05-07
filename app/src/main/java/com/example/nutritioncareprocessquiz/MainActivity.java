@@ -163,13 +163,13 @@ public class MainActivity extends AppCompatActivity {
         // Check which answer has been checked
         switch (view.getId()) {
             case R.id.answer_one_d_checkbox:
+            case R.id.answer_four_d_checkbox:
                 if (checked) {
                     score_five = 1;
                 }
                 break;
             case R.id.answer_two_d_checkbox:
             case R.id.answer_three_d_checkbox:
-            case R.id.answer_four_d_checkbox:
                 if (checked) {
                     score_five = 0;
                 }
@@ -342,16 +342,16 @@ public class MainActivity extends AppCompatActivity {
         radio.clearCheck();
 
         // Reset checkboxes
-        CheckBox resetCheckBox = (CheckBox) findViewById(R.id.answer_one_d);
+        CheckBox resetCheckBox = (CheckBox) findViewById(R.id.answer_one_d_checkbox);
         resetCheckBox.setChecked(false);
 
-        resetCheckBox = findViewById(R.id.answer_two_d);
+        resetCheckBox = findViewById(R.id.answer_two_d_checkbox);
         resetCheckBox.setChecked(false);
 
-        resetCheckBox = findViewById(R.id.answer_three_d);
+        resetCheckBox = findViewById(R.id.answer_three_d_checkbox);
         resetCheckBox.setChecked(false);
 
-        resetCheckBox = findViewById(R.id.answer_four_d);
+        resetCheckBox = findViewById(R.id.answer_four_d_checkbox);
         resetCheckBox.setChecked(false);
 
         // Reset total score
