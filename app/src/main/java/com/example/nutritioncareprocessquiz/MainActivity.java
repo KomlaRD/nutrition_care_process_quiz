@@ -57,8 +57,9 @@ public class MainActivity extends AppCompatActivity {
         checkQuizOneAnswer();
         displayScore(score + score_two + score_three + score_four + score_five + score_six + score_seven
                 + score_eight + score_nine + score_ten);
-        Toast.makeText(view.getContext(), "You scored " + score + score_two + score_three + score_four + score_five + score_six + score_seven
-                        + score_eight + score_nine + score_ten + " out of 10",
+        int totalScore = score + score_two + score_three + score_four + score_five + score_six + score_seven
+                + score_eight + score_nine + score_ten;
+        Toast.makeText(view.getContext(), "You scored " + totalScore + " out of 10",
                 LENGTH_SHORT).show();
     }
 
