@@ -1,5 +1,7 @@
 package com.example.nutritioncareprocessquiz;
 
+import static android.widget.Toast.*;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
@@ -10,6 +12,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     // Global variable for the score of quiz one
@@ -42,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     // Global variable for the score of quiz ten
     int score_ten;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +56,10 @@ public class MainActivity extends AppCompatActivity {
         // Display total score on the quiz
         checkQuizOneAnswer();
         displayScore(score + score_two + score_three + score_four + score_five + score_six + score_seven
-        + score_eight + score_nine + score_ten);
+                + score_eight + score_nine + score_ten);
+        Toast.makeText(view.getContext(), "You scored " + score + score_two + score_three + score_four + score_five + score_six + score_seven
+                        + score_eight + score_nine + score_ten + " out of 10",
+                LENGTH_SHORT).show();
     }
 
     // Question one methods
