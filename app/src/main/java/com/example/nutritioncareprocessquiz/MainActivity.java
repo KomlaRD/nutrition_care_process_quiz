@@ -77,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             score = 0;
         }
-
     }
 
     // Question two method
@@ -101,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Quiz three method
@@ -125,7 +123,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Quiz four method
@@ -149,7 +146,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Quiz five method
@@ -173,7 +169,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Quiz six method
@@ -197,7 +192,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Quiz seven method
@@ -221,7 +215,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Quiz eight method
@@ -245,7 +238,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Quiz nine method
@@ -269,7 +261,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Quiz ten method
@@ -293,7 +284,6 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     // Display total score when submit button is clicked
@@ -364,8 +354,6 @@ public class MainActivity extends AppCompatActivity {
         score_ten = 0;
         TextView resetQuiz = (TextView) findViewById(R.id.total_score);
         resetQuiz.setText("0");
-
     }
-
 
 }
