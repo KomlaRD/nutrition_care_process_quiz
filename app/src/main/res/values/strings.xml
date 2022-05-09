@@ -4,7 +4,7 @@
     <string name="ncp_two">2. What is the second step of the nutrition care process?</string>
     <string name="ncp_three">3. What is the third step of the nutrition care process?</string>
     <string name="ncp_four">4. What is the fourth step of the nutrition care process?</string>
-    <string name='ncp_five'>5. Which of these is a domain of nutrition assessment?</string>
+    <string name='ncp_five'>5. Which of these are domains of nutrition assessment? (Select all that apply)</string>
     <string name="ncp_six">6. Which of these is a domain of nutrition diagnosis?</string>
     <string name="ncp_seven">7. Which of these is a domain of nutrition intervention?</string>
     <string name="ncp_eight">8. Which of these is a domain of nutrition monitoring and evaluation</string>

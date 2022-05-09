@@ -151,23 +151,18 @@ public class MainActivity extends AppCompatActivity {
     // Quiz five method
     @SuppressLint("NonConstantResourceId")
     public void quizFiveButton(View view) {
-        // Is the button now checked?
-        boolean checked = ((CheckBox) view).isChecked();
-
-        // Check which answer has been checked
-        switch (view.getId()) {
-            case R.id.answer_one_d_checkbox:
-            case R.id.answer_four_d_checkbox:
-                if (checked) {
-                    score_five = 1;
-                }
-                break;
-            case R.id.answer_two_d_checkbox:
-            case R.id.answer_three_d_checkbox:
-                if (checked) {
-                    score_five = 0;
-                }
-                break;
+        // Get CheckBox View IDs and assign them to a variable
+        CheckBox checkBoxOne = (CheckBox) findViewById(R.id.answer_one_d_checkbox);
+        CheckBox checkBoxTwo = (CheckBox) findViewById(R.id.answer_two_d_checkbox);
+        CheckBox checkBoxThree = (CheckBox) findViewById(R.id.answer_three_d_checkbox);
+        CheckBox checkBoxFour = (CheckBox) findViewById(R.id.answer_four_d_checkbox);
+        // Check which answer has been checked and give a score
+        if (checkBoxOne.isChecked() && checkBoxFour.isChecked() &&
+        !checkBoxTwo.isChecked() && !checkBoxThree.isChecked()) {
+            score_five = 1;
+        }
+        else {
+            score_five = 0;
         }
     }
 
