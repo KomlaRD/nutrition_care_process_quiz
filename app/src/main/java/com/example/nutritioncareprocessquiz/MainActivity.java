@@ -68,8 +68,6 @@ public class MainActivity extends AppCompatActivity {
     private String quizOne() {
         EditText quizOneAnswer = (EditText) findViewById(R.id.edit_one);
         return quizOneAnswer.getText().toString();
-
-
     }
 
     public void checkQuizOneAnswer() {
@@ -303,7 +301,6 @@ public class MainActivity extends AppCompatActivity {
     public void displayScore(int score) {
         TextView scoreView = (TextView) findViewById(R.id.total_score);
         scoreView.setText(" " + score);
-
     }
 
     // Method to reset quiz responses
