@@ -14,11 +14,11 @@
     <string name="nutrition_diagnosis">Nutrition Diagnosis</string>
     <string name="nutrition_intervention">Nutrition Intervention</string>
     <string name="nutrition_monitoring">Nutrition monitoring and evaluation</string>
-    <string name="question_five_a">Anthropometry</string>
+    <string name="question_five_a">Anthropometry, body composition and functional</string>
     <string name="question_five_b">Intake</string>
     <string name="question_five_c">Nutrition education</string>
     <string name="question_five_d">Biochemical and hematological</string>
-    <string name="question_six_a">Body composition and function</string>
+    <string name="question_six_a">Body composition and functional</string>
     <string name="question_six_b">Biochemical and hematological</string>
     <string name="question_six_c">Clinical</string>
     <string name="question_six_d">Nutrition counselling</string>
@@ -26,7 +26,7 @@
     <string name="question_seven_b">Behavioural-Environmental</string>
     <string name="question_seven_c">Food and nutrition related history</string>
     <string name="question_seven_d">Food and nutrient delivery</string>
-    <string name="question_eight_a">Food and nutrition related outcomes</string>
+    <string name="question_eight_a">Food/Nutrition-related history outcomes</string>
     <string name="question_eight_b">Intake</string>
     <string name="question_eight_c">Clinical</string>
     <string name="question_eight_d">Nutrition counselling</string>
