@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     // Question one methods
     @SuppressLint("NonConstantResourceId")
     private String quizOne() {
-        EditText quizOneAnswer = (EditText) findViewById(R.id.edit_one);
+        EditText quizOneAnswer = findViewById(R.id.edit_one);
         return quizOneAnswer.getText().toString();
     }
 
@@ -152,10 +152,10 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("NonConstantResourceId")
     public void quizFiveButton(View view) {
         // Get CheckBox View IDs and assign them to a variable
-        CheckBox checkBoxOne = (CheckBox) findViewById(R.id.answer_one_d_checkbox);
-        CheckBox checkBoxTwo = (CheckBox) findViewById(R.id.answer_two_d_checkbox);
-        CheckBox checkBoxThree = (CheckBox) findViewById(R.id.answer_three_d_checkbox);
-        CheckBox checkBoxFour = (CheckBox) findViewById(R.id.answer_four_d_checkbox);
+        CheckBox checkBoxOne = findViewById(R.id.answer_one_d_checkbox);
+        CheckBox checkBoxTwo = findViewById(R.id.answer_two_d_checkbox);
+        CheckBox checkBoxThree = findViewById(R.id.answer_three_d_checkbox);
+        CheckBox checkBoxFour = findViewById(R.id.answer_four_d_checkbox);
         // Check which answer has been checked and give a score
         if (checkBoxOne.isChecked() && checkBoxFour.isChecked() &&
         !checkBoxTwo.isChecked() && !checkBoxThree.isChecked()) {
@@ -284,18 +284,18 @@ public class MainActivity extends AppCompatActivity {
     // Display total score when submit button is clicked
     @SuppressLint("SetTextI18n")
     public void displayScore(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.total_score);
+        TextView scoreView = findViewById(R.id.total_score);
         scoreView.setText(" " + score);
     }
 
     // Method to reset quiz responses
     public void resetButton(View view) {
         // Reset name of participant
-        EditText resetName = (EditText) findViewById(R.id.name);
+        EditText resetName = findViewById(R.id.name);
         resetName.setText("");
 
         //Reset edit text question
-        EditText resetText = (EditText) findViewById(R.id.edit_one);
+        EditText resetText = findViewById(R.id.edit_one);
         resetText.setText("");
 
         // Reset radio groups
@@ -324,7 +324,7 @@ public class MainActivity extends AppCompatActivity {
         radio.clearCheck();
 
         // Reset checkboxes
-        CheckBox resetCheckBox = (CheckBox) findViewById(R.id.answer_one_d_checkbox);
+        CheckBox resetCheckBox = findViewById(R.id.answer_one_d_checkbox);
         resetCheckBox.setChecked(false);
 
         resetCheckBox = findViewById(R.id.answer_two_d_checkbox);
@@ -347,7 +347,7 @@ public class MainActivity extends AppCompatActivity {
         score_eight = 0;
         score_nine = 0;
         score_ten = 0;
-        TextView resetQuiz = (TextView) findViewById(R.id.total_score);
+        TextView resetQuiz = findViewById(R.id.total_score);
         resetQuiz.setText("0");
     }
 
